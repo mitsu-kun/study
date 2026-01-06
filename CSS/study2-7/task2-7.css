@@ -1,0 +1,52 @@
+body {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition-property: background;
+    transition-duration: 2s;
+    margin-bottom: 5%;
+}
+.box1:hover {
+    background-color: orange;
+    transition-property: background;
+    transition-duration: 2s;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: width,transform rotate(180deg);
+    transition-duration: 2s;
+    
+}
+.box2:hover {
+    width: 400px;
+    transition-property: width,;
+    transition-duration: 2s;
+    transform: rotate(180deg);
+}
+/* CSS基礎７
+参考サイト：https://mukolog.com/css-basic-transition/ */
+
+
+/* 課題：transition を使ってみる */
+/* 両方とも position relative を設定してるがここでは無くてもよい。 */
+/* 動きはgif参照 */
+/* box1は正方形を作り、背景色を決める。
+ブラウザ上での動作内容：
+カーソルがbox1に重なった時に正方形の色が2秒かけて変形後の色に変化する。
+カーソルがbox1から離れた時は変化した色から元の色に2秒かけて変化する。
+
+
+/* box2は正方形を作り、背景色を決める。
+ブラウザ上での動作内容：
+カーソルがbox2に重なった時にbox2の正方形が横長の長方形に変形。
+カーソルがbox2から離れた時は長方形から正方形に変形。
+伸縮時は180°回転しながら変形。
+変化時間に指定はありません
+
+

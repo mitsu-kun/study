@@ -1,0 +1,33 @@
+header {
+    background-color: aquamarine;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    height: 120px;    
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header ul li {
+    margin-left: 50px;
+}
+.form {
+    background-color: lightgrey;
+    justify-content: center;
+    text-align: center;
+    
+}
+input {
+    
+    width: 400px;
+
+}
+textarea {
+    width: 400px;
+    height: 100px;
+}

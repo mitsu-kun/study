@@ -1,0 +1,46 @@
+.z-index{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #666;
+}
+.top{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    z-index: 3;
+}
+.middle{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+.bottom{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 2;
+}
+.box_sizing{
+    background-color: #666;
+    width: 1000px;
+    height: 200px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+h2::before{
+    content: "~";
+    color: red;
+}
+h2::after{
+    content: "そして伝説へ";
+    color: blue;
+}

@@ -1,0 +1,41 @@
+body {
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.box {
+    perspective: 500px;
+}
+.item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;  
+    transform: rotateX(-30deg);
+}
+.face1 {
+    position: absolute;
+    background-color: aquamarine;
+    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: rotateY(90deg)translateZ(100px);  
+}
+.face2 {
+    position: absolute;
+    background-color: pink;
+    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: rotateX(90deg)translateZ(100px);   
+}
+.face3 {
+    position: absolute;
+    background-color: lawngreen;
+    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transform: translateZ(100px);
+}

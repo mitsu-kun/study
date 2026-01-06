@@ -1,0 +1,45 @@
+header{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    
+}
+main{
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+}
+
+.main{
+    height: 260px;
+    width: 260px;
+    background-color: pink;
+    position: relative;
+}
+.left-content{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+h1{
+    color: aqua;
+}
+button{
+   
+    margin-top: 40px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3366ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}

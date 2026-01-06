@@ -1,0 +1,136 @@
+body {
+    background-color: #181619;
+}
+header {
+    color: #ffffff;
+}
+header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    padding: 20px 0;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+header nav ul {
+    display: flex;   
+}
+header nav ul li {
+    margin-left: 50px;
+}
+header nav ul li a {
+    transition: 0.3s;
+}
+header nav ul li a:hover {
+    transition: 0.3s;
+    opacity: 0.6;
+}
+.mv {
+    background-image: url(img/black-cat.jpg);
+    background-size: cover;
+    background-position: center top ;
+    position: relative;
+}
+.mv .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+    height: 720px;
+    position: relative;
+}
+.mv .title {
+    position: absolute;
+    bottom: 100px;
+}
+.mv h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.mv p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.section1 {
+    color: #ffffff;
+    padding: 80px 0;
+}
+.section1 .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+.section1 .row {
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .col {
+    width: 48%;
+}
+.section1 .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section1 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.section1 .text {
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 50px 0;
+}
+.section1 .btn {
+    font-size: 18px;
+    border: solid 1px #ffffff;
+    border-radius: 100px;
+    display: inline-block;
+    width: 270px;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.3s;
+}
+.section1 .btn:hover {
+    color: #0088CC;
+    border-color: #0088CC;
+    transition-duration: 2s;
+    transition: 0.3s;
+}
+.section2 {
+    color: #ffffff;
+    padding: 80px 0;
+}
+.section2 .container {
+    width: 90%;
+    margin: auto;
+    max-width: 1280px;
+}
+.section2 .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section2 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.section2 .row {
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .col {
+    width: 32%;
+}
+.section2 img {
+    border-radius: 20px;    
+}

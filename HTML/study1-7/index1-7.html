@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>お問い合わせフォーム</title>
+
+    </head>
+
+    <body>
+         <!-- お問い合わせ内容 -->
+        <form>
+            <p><label>name<input type="text" name="full_name" placeholder="山田　太郎"></label></p>
+            <p>tel<input type="number" name="tel" placeholder="090-0000-0000"></p>
+            <p>email<input type="email" name="email" placeholder="000@00.jp"></p>
+            <p><input type="checkbox" name="checkbox">登録内容に漏れはないか</p>
+            <p>好きな季節</p>
+            <label><input type="radio">春</label>
+            <input id="summer" type="radio" name="season" value="summer"><label for="summer">夏</label>
+            <input type="radio">秋
+            <input type="radio">冬
+            <p>備考欄<br><textarea></textarea></p>
+            <p><button type="submit" value="send">送信ボタン</button></p>
+            
+
+           
+        </form>
+    </body>
+</html>

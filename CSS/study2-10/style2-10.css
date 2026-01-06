@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+}
+@media screen and (min-width:1000px ) {
+    body {
+        background-color: blue;
+    }
+    .sp {
+        color: white;
+        font-size: 200%;
+    }
+}
+@media screen and (max-width:500px ) {
+    body {
+        background-color: red;
+    }
+    .sp {
+        color: yellow;
+        font-size: 50%;
+    }
+}
+
+    

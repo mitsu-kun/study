@@ -1,0 +1,51 @@
+header{
+    border: 2px solid;
+    border-color: red;
+}
+.top-contents{
+    background-color: skyblue;
+    padding: 20px;
+    height: 250px;
+    width: 50%;
+}
+.bottom-contents{
+    background-color: pink;
+    margin: 20px;
+    height: 150px;
+    width: 30%;
+}
+.a{
+    text-decoration: underline;
+}
+.k{
+    text-decoration: underline dotted;
+}
+.s{
+    text-decoration: underline dashed red;
+}
+.t{
+    text-decoration: none;
+}
+.n{
+    text-decoration: none;
+}
+.colors{
+    width: 20%;
+    height: auto;
+    background: linear-gradient(to right,blue,purple,red);
+}
+.area1{
+    width: 200px;
+    height: auto;
+    background-color: red;
+}
+.area2{
+    width: 200px;
+    height: auto;
+    background-color: red;
+    opacity: 0.7;
+}
+.x, .y, .z{
+    color: red;
+    padding: 40px;
+}

@@ -1,0 +1,26 @@
+.parents{
+    height: 600px;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parent{
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    position: relative;
+}
+.child{
+    height: 70%;
+    width: 70%;
+    background-image: url(../../picture/tiger.jpg);
+    background-size: contain;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+/* 値の種類は全て載せているわけではありません。
+必要なコードを適宜記述しながら完成させましょう。*/
+/* positionプロパティは必ず使用しましょう */

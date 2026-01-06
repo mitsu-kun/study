@@ -1,0 +1,39 @@
+body {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.button {
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    border: 2px solid red;
+    padding: 2% 3%;
+    text-decoration: none;
+    transition-property: background;
+    transition-delay: 3s;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.button:hover {
+    color: white;
+    background-color: violet;
+    border: 2px solid blue;
+    transition-property: background;
+    transition-delay: 0.5s;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+.linear {
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition-property: width,background;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.linear:hover {
+    width: 600px;
+    background-color: skyblue;
+    transition: all 1s ease;
+}
